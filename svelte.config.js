@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-static';
 //import adapter from 'svelte-adapter-static-digitalocean';
 
 import { vitePreprocess } from '@sveltejs/kit/vite';
@@ -11,8 +11,8 @@ const config = {
 		// See https://kit.svelte.dev/docs/adapters for more information about adapters.
 		adapter: adapter({
 			// default options are shown
-			pages: 'local',
-			assets: 'local',
+			pages: 'build',
+			assets: 'build',
 			//fallback: '404.html',
 			precompress: false,
 			strict: false,

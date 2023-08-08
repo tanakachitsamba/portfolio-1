@@ -25,6 +25,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@sveltejs/adapter-static": "^2.0.3",
 		"svelte-adapter-static-digitalocean": "^2.0.1"
 	}
 }
