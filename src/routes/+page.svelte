@@ -1,4 +1,6 @@
 <script>
+
+  var x = false  
 </script>
 
 <main>
@@ -14,12 +16,18 @@
 				practices and responsible machine learning use.
 			</div>
 
+      <div class="mes c">🚧 This website is still under construction and being updated regularly - more content is coming soon</div>
+
+      {#if x}
+
 			<div class="sub-heading c">My work</div>
 			<div class="col">
 				<div class="c">1</div>
 				<div class="c">2</div>
 				<div class="c">3</div>
 			</div>
+
+      {/if}
 		</div>
 	</div>
 </main>
@@ -70,4 +78,11 @@
 		font-size: 20px;
 		font-weight: 600;
 	}
+
+  .mes {
+    font-size: 20px;
+		font-weight: 600;
+    font-style: italic;
+    color: rgb(76, 76, 76);
+  }
 </style>
