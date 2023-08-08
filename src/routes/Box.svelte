@@ -1,12 +1,12 @@
 <div class="box">
-	<slot></slot>
+	<slot />
 </div>
 
 <style>
 	.box {
 		border: 1px solid #aaa;
 		border-radius: 4px;
-		box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+		box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
 		padding: 1em;
 		margin: 0 0 1em 0;
 	}

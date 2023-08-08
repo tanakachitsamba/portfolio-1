@@ -1,0 +1,3 @@
+databytanaka.co {
+    root local_
+}
