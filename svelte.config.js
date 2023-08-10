@@ -1,4 +1,6 @@
-import adapter from '@sveltejs/adapter-static';
+//import adapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-node';
+
 //import adapter from 'svelte-adapter-static-digitalocean';
 
 import { vitePreprocess } from '@sveltejs/kit/vite';
