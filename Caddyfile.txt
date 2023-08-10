@@ -1,3 +1,0 @@
-databytanaka.co {
-    reverse_proxy localhost:PORT
-}
