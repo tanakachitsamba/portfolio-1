@@ -134,3 +134,8 @@
         padding-bottom: 100px;
         
     }
+
+	.nav-link:hover {
+		font-size: 110%; /* Increase font size on hover */
+		border-bottom: 4px solid currentColor; /* Add underline on hover using current text color */
+	}
