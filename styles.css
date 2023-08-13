@@ -37,6 +37,7 @@
 	.d {
 		padding-top: 10px;
 		padding-bottom: 10px;
+		font-size: 17px;
 	}
 
 	.e {
@@ -60,7 +61,7 @@
 	}
 
 	.title {
-		font-size: 22px;
+		font-size: 20px;
 		line-height: 1.8;
 		font-weight: 600;
 	}
@@ -68,6 +69,7 @@
 	.sub-heading {
 		font-size: 20px;
 		font-weight: 800;
+		letter-spacing: 2px;
 	}
 
 	.mes {
@@ -78,3 +80,18 @@
 		padding-top: 40px;
 		padding-bottom: 20px;
 	}
+
+	@media (max-width: 767px) {
+		/* Styles for mobile phones */
+		.title {
+		  font-size: 18px
+		}
+
+		.mess {
+			font-size: 18px;
+		}
+
+		.d {
+			font-size: 19px;
+		}
+	  }
