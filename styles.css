@@ -96,3 +96,41 @@
 			font-size: 19px;
 		}
 	  }
+
+	.nav-link {
+        color: black;
+        --bs-nav-link-color: ;
+        font-size: 16px;
+    }
+
+    .aa {
+        font-size: 25px;
+    }
+
+    .bb {
+        width: 83%;
+        margin: auto;
+        padding-top: 20px;
+        
+    }
+
+    .cc {
+        --bs-card-border-radius: 0;
+    }
+
+    .dd {
+        padding-top: 10px;
+        
+    }
+
+    .ee {
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .ff {
+        font-size: 30px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        
+    }
