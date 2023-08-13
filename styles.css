@@ -1,141 +1,131 @@
-	:global(html) {
-		background-color: #ffeee7;
-		margin: 0;
-		padding: 0;
-		font-family: Open Sans;
-	}
+:global(html) {
+    background-color: #ffeee7;
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans;
+}
 
-	.container {
-		width: 80%;
-		margin: auto;
-	}
+.page-container {
+    width: 80%;
+    margin: auto;
+}
 
-	.nav_ {
-		padding-top: 20px;
-		padding-bottom: 20px;
-		font-size: 25px;
-		font-weight: 600;
-		text-transform: uppercase;
-	}
+.nav-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
 
-	.about {
-		width: 80%;
-		margin: auto;
-		padding-top: 40px;
-	}
+.about {
+    width: 80%;
+    margin: auto;
+    padding-top: 40px;
+}
 
-	.col {
-		display: grid;
-		grid-template-columns: 1fr; /* Set the number of columns as needed */
-		grid-gap: 10px; /* Adjust the gap between divs as desired */
-	}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
 
-	.c {
-		padding-top: 30px;
-	}
+.content-heading {
+    padding-top: 30px;
+}
 
-	.d {
-		padding-top: 10px;
-		padding-bottom: 10px;
-		font-size: 17px;
-	}
+.content-description {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
 
-	.e {
-		font-weight: 600;
-	}
+.project-title {
+    font-weight: 600;
+}
 
-	/* Style the link to look like text with underline */
-	.text-link {
-		text-decoration: none; /* Remove default underline */
-		color: inherit; /* Use the default text color */
-		font-family: inherit; /* Use the default font */
-		font-size: inherit; /* Use the default font size */
-		transition: font-size 0.3s, text-decoration 0.3s; /* Add transitions for hover effect */
-		border-bottom: 1px solid currentColor; /* Add underline on hover using current text color */
-	}
+.custom-link {
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    transition: font-size 0.3s, text-decoration 0.3s;
+    border-bottom: 1px solid currentColor;
+}
 
-	/* Add hover effect to increase text size and underline */
-	.text-link:hover {
-		font-size: 110%; /* Increase font size on hover */
-		border-bottom: 4px solid currentColor; /* Add underline on hover using current text color */
-	}
+.custom-link:hover {
+    font-size: 110%;
+    border-bottom: 4px solid currentColor;
+}
 
-	.title {
-		font-size: 20px;
-		line-height: 1.8;
-		font-weight: 600;
-	}
+.main-title {
+    font-size: 20px;
+    line-height: 1.8;
+    font-weight: 600;
+}
 
-	.sub-heading {
-		font-size: 20px;
-		font-weight: 800;
-		letter-spacing: 2px;
-		padding-top: 40px;
-	}
+.section-title {
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    padding-top: 40px;
+}
 
-	.mes {
-		font-size: 20px;
-		font-weight: 600;
-		font-style: italic;
-		color: rgb(76, 76, 76);
-		padding-top: 40px;
-		padding-bottom: 20px;
-	}
+.message {
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+    color: rgb(76, 76, 76);
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
 
-	@media (max-width: 767px) {
-		/* Styles for mobile phones */
-		.title {
-		  font-size: 18px
-		}
-
-		.mess {
-			font-size: 18px;
-		}
-
-		.d {
-			font-size: 19px;
-		}
-	  }
-
-	.nav-link {
-        color: black;
-        --bs-nav-link-color: ;
-        font-size: 16px;
+@media (max-width: 767px) {
+    .main-title {
+        font-size: 18px;
     }
 
-    .aa {
-        font-size: 25px;
+    .message {
+        font-size: 18px;
     }
 
-    .bb {
-        width: 83%;
-        margin: auto;
-        padding-top: 20px;
-        
+    .content-description {
+        font-size: 19px;
     }
+}
 
-    .cc {
-        --bs-card-border-radius: 0;
-    }
+.nav-link {
+    color: black;
+    --bs-nav-link-color: ;
+    font-size: 16px;
+}
 
-    .dd {
-        padding-top: 10px;
-        
-    }
+.logo {
+    font-size: 25px;
+}
 
-    .ee {
-        font-weight: 500;
-        font-size: 20px;
-    }
+.section-container {
+    width: 83%;
+    margin: auto;
+    padding-top: 20px;
+}
 
-    .ff {
-        font-size: 30px;
-        padding-top: 100px;
-        padding-bottom: 100px;
-        
-    }
+.card-description {
+    padding-top: 10px;
+}
 
-	.nav-link:hover {
-		font-size: 110%; /* Increase font size on hover */
-		border-bottom: 4px solid currentColor; /* Add underline on hover using current text color */
-	}
+.card-title {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.large-section {
+    font-size: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.nav-link:hover {
+    font-size: 110%;
+    border-bottom: 4px solid currentColor;
+}
