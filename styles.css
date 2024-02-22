@@ -129,3 +129,43 @@
     font-size: 110%;
     border-bottom: 4px solid currentColor;
 }
+
+/* Custom styles for the blog section */
+.blog-section {
+    padding: 50px 0;
+}
+
+.blog-post {
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.blog-post h2 {
+    font-size: 24px;
+}
+
+.blog-post p {
+    font-size: 16px;
+}
+
+/* Custom styles for the blog section */
+.blog-section {
+    padding: 50px 0;
+}
+
+.blog-post {
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.blog-post h2 {
+    font-size: 24px;
+}
+
+.blog-post p {
+    font-size: 16px;
+}
